@@ -1,9 +1,12 @@
-function App() {
+import React from 'react';
+import SaveSegmentButton from './components/SaveSegmentButton';
+
+const App = () => {
   return (
-    <div className="text-6xl">
-      My world!
+    <div>
+      <SaveSegmentButton />
     </div>
   );
-}
+};
 
 export default App;
